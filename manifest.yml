@@ -1,0 +1,6 @@
+applications:
+- name: redis-client
+  memory: 256M
+  buildpack: python_buildpack
+  random-route: true
+# command: python main.py
